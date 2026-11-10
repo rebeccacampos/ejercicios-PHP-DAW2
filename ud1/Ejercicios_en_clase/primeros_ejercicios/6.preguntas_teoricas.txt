@@ -1,0 +1,30 @@
+Comprobación final:
+
+1. ¿Donde se ejecuta el codigo PHP?
+    En codigo php se ejecuta siempre en el servidor 
+
+2. ¿Qué recibe el navegador?
+    Lo que le envia el servidor una pagina html ó javascript
+
+3. ¿Qué diferencia hay entre <?php y <?= ?
+    Uno ejecuta el codigo e imprime directamente por pantalla -> <?=
+    El otro solo ejecuta el código (es un bloque general de codigo de php)
+
+4. ¿Por qué evitamos la etiqueta corta <? ?
+    Porque hay que configurar el php para que la admita y es más propensa a error
+
+5. ¿Qué comando comprueba la sintaxis de un archivo?
+    php -l nombreDelArchivo
+    No nos da todos lo fallos (el primero que encuentra normalmente y no nos va a dar los fallos que sean de ejecución)
+
+6. ¿Dónde buscarias el error si la pagina aparece en blanco?
+    En el log de errores de Apache, ya que si no muestra otros errores y aparece en blanco 
+
+
+Comclusiones:
+
+- Explicar donde se ejecuta PHP
+- Crear y ejecutar un archivo .php
+- Usamos <=php, <?= y echo
+- Mezclamos PHP con una estructura de html
+- Sabemos localizar los errores que nos pueda dar el codigo

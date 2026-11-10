@@ -1,0 +1,6 @@
+Ejercicio 9 · Modulariza tu tienda
+•  Mueve las funciones de cálculo a src/funciones.php.
+•  Coloca el catálogo fijo en src/catalogo.php.
+•  Deja el formulario y su procesamiento en public/index.php.
+•  Usa require_once con __DIR__.
+•  Comprueba que el formulario sigue funcionando.
