@@ -33,7 +33,7 @@ session_start();
                 <td><?php echo $p["precio"] ?></td>
                 <td><?php echo $p["stock"] ?></td>
                 <td>
-                    <form action="" method="post">
+                    <form action="carrito.php" method="post">
                         <input type="hidden" name="idAñadir" value="<?php echo $p["id"]; ?>">
                         <input id="unidadesAñadir" name="unidadesAñadir" type="number" min="0" value="1" required>
                         <button type="submit">Añadir</button>
